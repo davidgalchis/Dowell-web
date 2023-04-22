@@ -19,7 +19,7 @@ const Nav = () => {
             style={{ fontSize: "2rem", color: "#000", marginRight: "1rem" }}
             onClick={() => setMenu(!menu)}
           />
-          <div className="mobile_menu" style={{ left: menu ? "-100%" : 0 }}>
+          <div className="mobile_menu" style={{ left: !menu ? "-100%" : 0 }}>
             <Link to="/" onClick={() => setMenu(!menu)}>
               Home
             </Link>
