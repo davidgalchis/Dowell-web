@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+@media screen and (max-width: 800px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.cranes {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+.cranes span {
+    color: #aaa;
+}

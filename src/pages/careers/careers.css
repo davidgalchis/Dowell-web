@@ -1,0 +1,37 @@
+form {
+    font-size: 14px;
+    margin-top: 2rem;
+    color: #000;
+}
+::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+.input_container input {
+    height: 2rem;
+    border: 1px solid;
+    border-left: 4px solid #EA8623;
+    outline: none;
+}
+.input_container, .message {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.message {
+    
+}
+.message textarea {
+    height: 10rem;
+    border-left: 4px solid #EA8623;
+}
+.submit_button button {
+    background: white;
+    width: 30%;
+    height: 2rem;
+    border: 1px solid;
+    border-left: 4px solid #EA8623;
+}
