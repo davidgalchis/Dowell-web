@@ -3,10 +3,34 @@ import "./nav.css";
 import Logo from "../../images/small_images/main_logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
+import { useEffect } from "react";
 
 const Nav = () => {
   const [mobile, setMobile] = useState(false);
   const [menu, setMenu] = useState(false);
+  const isWindow = typeof window !== "undefined";
+
+  const handleResize = () => {
+    if (window.innerWidth < 700) {
+      setMobile(true);
+      console.log(window.innerWidth);
+    } else {
+      setMobile(false);
+      console.log(window.innerWidth);
+    }
+    console.log(mobile);
+  };
+
+  useEffect(() => {
+    if (isWindow) {
+      window.addEventListener("resize", handleResize);
+    }
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  });
+
   return (
     <nav className="navbar_container">
       <Link to="/" className="logo_link">

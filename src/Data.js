@@ -95,6 +95,12 @@ export const LatestNews = [
     description:
       "National Institute of South Africa appoints MatroPetroserve Oilfield Services as their official offshore drilling company for five (5) years Contract and hopes of extended partnership in the future.",
   },
+  {
+    id: 5,
+    title: "Contract",
+    description:
+      "Libyan Institute of oil appoints MatroPetroserve Oilfield services for mining of new oil resources discovered. This is a promising progression from previous mismanagement of resources for the people as new hands take over the operation.",
+  },
 ];
 
 export const Cranes = [
