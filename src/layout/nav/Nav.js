@@ -6,31 +6,29 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const Nav = () => {
-  const [mobile, setMobile] = useState(false);
+  const [mobile, setMobile] = useState(true);
   const [menu, setMenu] = useState(false);
   const isWindow = typeof window !== "undefined";
 
-  const handleResize = () => {
-    if (window.innerWidth < 700) {
-      setMobile(true);
-      console.log(window.innerWidth);
-      console.log(mobile);
-    } else {
-      setMobile(false);
-      console.log(window.innerWidth);
-      console.log(mobile);
-    }
-  };
-
   useEffect(() => {
-    if (isWindow) {
-      window.addEventListener("resize", handleResize);
-    }
+    const handleResize = () => {
+      if (isWindow) {
+        if (window.innerWidth > 700) {
+          setMobile(false);
+          console.log(window.innerWidth);
+          console.log(mobile);
+        } else {
+          setMobile(true);
+        }
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  });
+  }, [isWindow, mobile]);
 
   return (
     <nav className="navbar_container">
