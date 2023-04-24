@@ -6,8 +6,6 @@ import { Link, useLocation } from "react-router-dom";
 const Home = () => {
   const location = useLocation();
 
-  console.log(location);
-
   return (
     <section className="home_container">
       <Banner />
