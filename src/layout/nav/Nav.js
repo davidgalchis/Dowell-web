@@ -14,11 +14,12 @@ const Nav = () => {
     if (window.innerWidth < 700) {
       setMobile(true);
       console.log(window.innerWidth);
+      console.log(mobile);
     } else {
       setMobile(false);
       console.log(window.innerWidth);
+      console.log(mobile);
     }
-    console.log(mobile);
   };
 
   useEffect(() => {
