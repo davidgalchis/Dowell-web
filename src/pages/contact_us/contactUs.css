@@ -91,6 +91,6 @@ aside .country h1 {
     margin-top: 2rem;
     padding: 0;
 }
-.contact_us_wrapper aside .state span {
-    color: #555;
+.contact_us_wrapper aside .state span a {
+    color: rgba(32, 32, 32, 0.907);
 }

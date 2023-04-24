@@ -49,7 +49,7 @@ export const Statement = [
     class: "vision",
     title: "Vision Statement",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, quae praesentium voluptas delectus aut, cupiditate iste omnis tempora, necessitatibus adipisci dolorum ullam fuga voluptatem cumque impedit ut id sit possimus.",
+      "To develop a dynamic and successful company that provides innovative and quality service delivery in Engineering and Procurement in the African oil and Gas Industry.",
     image: Vision,
   },
   {
@@ -57,7 +57,7 @@ export const Statement = [
     class: "mission",
     title: "Mission Statement",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, quae praesentium voluptas delectus aut, cupiditate iste omnis tempora, necessitatibus adipisci dolorum ullam fuga voluptatem cumque impedit ut id sit possimus.",
+      "To develop exceptional values to our clients in the areas of Engineering, Procurement and Project Management with regards to Environmental Protection.",
     image: Mission,
   },
   {
@@ -65,7 +65,7 @@ export const Statement = [
     class: "news",
     title: "News and Update",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, quae praesentium voluptas delectus aut, cupiditate iste omnis tempora, necessitatibus adipisci dolorum ullam fuga voluptatem cumque impedit ut id sit possimus.",
+      "The JV Partnership of GEPETROL – MatroPetroServe-Equatorial Guinea SA can develop and launch a blueprint which describes the joint venture strategy to build the most advanced oilfield services marketplace in Equatorial Guinea, and across the CEMAC region. The blueprint can include details of the initiatives that can be delivered for customers.",
     image: News,
   },
 ];
@@ -73,21 +73,27 @@ export const Statement = [
 export const LatestNews = [
   {
     id: 1,
-    title: "Lorem ",
+    title: "Sponsorships ",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque quaerat pariatur inventore quasi accusantium tenetur eligendi, debitis enim quos dolore. Adipisci non optio sed delectus. Omnis eligendi consequuntur dicta sit, quas quisquam adipisci eum nemo quam tenetur deserunt quis?",
+      "MatroPetroserve Oilfield Services is a sponsor for the 2013 LOG (London Oil & Gas) Conference at the International Conference Centre, please visit our boot C24. For details visit ",
   },
   {
     id: 2,
-    title: "Lorem Ipsum ",
+    title: "Joint Venture Agreement ",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque quaerat pariatur inventore quasi accusantium tenetur eligendi, debitis enim quos dolore. Adipisci non optio sed delectus. Omnis eligendi consequuntur dicta sit, quas quisquam adipisci eum nemo quam tenetur deserunt quis?",
+      "MatroPetroserve Oilfield Services is into a Joint Venture Agreement with National Oil Company of South Africa, to build their in-country capacity in the Oil & Gas Sector as  One-Stop-Shop of high-quality, cost-efficient products and services to cover even the most complex projects needs in the territory.",
   },
   {
     id: 3,
-    title: "Lorem Ipsum Dolor",
+    title: "Expansion",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque quaerat pariatur inventore quasi accusantium tenetur eligendi, debitis enim quos dolore. Adipisci non optio sed delectus. Omnis eligendi consequuntur dicta sit, quas quisquam adipisci eum nemo quam tenetur deserunt quis?",
+      "As part of business expansion, Dovewell Oilfield Services office will be officially opened in New Zealand by Q2 2018 in value adding to the oil and gas sector.",
+  },
+  {
+    id: 4,
+    title: "Contract",
+    description:
+      "National Institute of South Africa appoints MatroPetroserve Oilfield Services as their official offshore drilling company for five (5) years Contract and hopes of extended partnership in the future.",
   },
 ];
 

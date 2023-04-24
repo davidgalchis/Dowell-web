@@ -15,13 +15,14 @@ const Home = () => {
         <div className="stitch" />
         <div>
           <div className="description">
-            <h2>Welcome To Dowell Group Limited</h2>
+            <h2>Welcome To Matro Petro Serve</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
-              excepturi ipsum pariatur, praesentium, repellendus dicta iste
-              asperiores enim voluptate qui non necessitatibus et error,
-              provident voluptates sapiente vitae animi iure accusamus eum quo
-              adipisci. Expedita accusamus officia cupiditate inventore cum.
+              Our primary focus is to employ our specialized, technical
+              expertise and motivate our team of professionals in contributing
+              positively to the improving Petroleum and Energy main industry. We
+              are a powerhouse of technology, creativity and expertise. We
+              possess unrivalled problem solving proficiency and acumen in the
+              Petroleum industry.
             </p>
           </div>
 

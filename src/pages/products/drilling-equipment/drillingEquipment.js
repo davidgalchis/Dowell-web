@@ -1,17 +1,41 @@
 import React from "react";
 import Drilling from "../../../images/large_images/OCTG-Line-PIPE.jpg";
+import Valve from "../../../images/small_images/ButterFly-Valve.jpg";
+import Fittings from "../../../images/small_images/fittings.jpg";
+import Flanges from "../../../images/small_images/flanges.jpg";
 
 const DrillingEquipment = () => {
   return (
     <>
       <img src={Drilling} alt="drilling equipment" />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-        aspernatur ad nostrum vero sint animi delectus reprehenderit at
-        provident earum! Corrupti alias enim magnam ut tempora officia suscipit
-        aspernatur vero rem ipsa! Quam doloremque, qui recusandae excepturi amet
-        perferendis esse? Ipsum sit blanditiis nemo enim qui laborum veniam
-        ipsam ipsa.
+        We offer procurement management of valves and actuator that is
+        technically based with design engineers, production engineers, valve
+        technologists, and QA/QC personnel. Quality, safety, and customer
+        service remain the highest priority to us. We monitor our manufacturers
+        and suppliers to ensure they meet these same high standards.
+      </p>
+      <img src={Valve} alt="" />
+
+      <p>
+        We would be proud to earn your business and become partners in the
+        industry. Allow us the opportunity to serve you. You will experience
+        first class service along with best in class products.
+        <strong>MatroPetroserve</strong> is your valve and automation connection
+        to the world.
+      </p>
+
+      <img src={Fittings} alt="" />
+
+      <p>
+        <img src={Flanges} alt="" />
+      </p>
+
+      <p>
+        MatroPetroserve provides different sizes of flanges/fittings from 1/2″
+        to 60″, ANSI classes 150lbs to 2500lbs API6D & API6A and API 2000 to API
+        20000 in Carbon Steel, Stainless Steel, Duplex Steel, Super Duplex
+        Steel, Alloy Steel, Incoloy-Monel, Titanium etc.
       </p>
 
       <ul>

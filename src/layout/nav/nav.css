@@ -1,5 +1,5 @@
 nav {
-    background: #fff;
+    background-image: url('../../images/small_images/footerBg.png');
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,6 +18,7 @@ nav {
     flex: 0.7;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 1rem;
 }
 @media screen and (max-width: 800px) {
@@ -27,7 +28,7 @@ nav {
 }
 .navbar_menu a {
     text-decoration: none;
-    color: #777;
+    color: #fff;
     font-size: .9rem;
 }
 .navbar_menu a:hover {
@@ -40,34 +41,36 @@ nav {
     z-index: 10;
 }
 .hoverLink span {
-    color: #777;
+    color: #fff;
 }
 .hoverLink:hover .hoverMenu {
     visibility: visible;
     height: auto;
 }
-.nav_container .hoverLink >.hoverMenu {
-    visibility: hidden;
-    background: #fff;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 0.6rem;
-    width: 150px;
-    height: 0;
-    font-size: 14px;
-    padding: .6rem 0;
-    /* margin: 1rem 0; */
-    border: 1px solid #777;
-    border-top: 2px solid #EA8623;
+.dropdown-content {
+    display: none;
+  position: absolute;
+  background-color: rgb(59, 59, 59);
+  min-width: auto;
+  padding: .5rem .5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
 }
-.hoverMenu a {
-    padding-left: .5rem;
+.dropbtn {
+    color: #fff;
+    font-size: .9rem;
 }
-.nav_container > .navbar_menu .hoverMenu a:first-of-type {
-    border-bottom: 1px solid #777;
-}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown-content a {
+    float: none;
+    color: #fff;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #000;
+  }
 
 /* MOBILE MENU */
 

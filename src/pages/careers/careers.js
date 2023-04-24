@@ -6,14 +6,14 @@ const Careers = () => {
     <>
       <img src={oilRig} alt="oil rig thumbnail" />
       <p>
-        <strong>Dovewell Oilfield Services Limited</strong>
+        <strong>MatroPetroserve Oilfield Services </strong>
         seeks talented individuals who share our passion and drive for
-        excellence and hard work. Dovewell Group Limited has the technology and
-        vision that are needed to dramatically improve productivity and change
-        the way people work. People are the essential component for the
-        development of our technology and the execution of our vision. We are
-        always on the lookout for talented individuals across all functions who
-        share our passion for technology, excellence and innovation.
+        excellence and hard work. MatroPetroserve has the technology and vision
+        that are needed to dramatically improve productivity and change the way
+        people work. People are the essential component for the development of
+        our technology and the execution of our vision. We are always on the
+        lookout for talented individuals across all functions who share our
+        passion for technology, excellence and innovation.
       </p>
 
       <p>
@@ -22,9 +22,9 @@ const Careers = () => {
       </p>
 
       <p>
-        Dovewell Group Limited is an equal opportunity employer. We do not
-        discriminate on grounds of gender, race or colour. To contact us via
-        e-mail, please send to
+        MatroPetroserve is an equal opportunity employer. We do not discriminate
+        on grounds of gender, race or colour. To contact us via e-mail, please
+        send to
       </p>
 
       <form>

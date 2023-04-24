@@ -14,7 +14,7 @@ const Contact_us = () => {
       <section className="row">
         <section className="container">
           <p>
-            Dovewell Oilfield Services Limited is always open for communication
+            MatroPetroserve Oilfield Services is always open for communication
             on whatever questions you may have. So in case you do have questions
             (as we assume) just go ahead and complete the form below to let us
             know.
@@ -74,135 +74,55 @@ const Contact_us = () => {
             <h1>Nigeria</h1>
             <div className="branches">
               <div className="state">
-                <h1>Lagos Office</h1>
-                <span>Plot 21B Akwuzu Street,</span>
-                <span>Lekki Phase 1, Lagos,</span>
-                <span>Lagos State,</span>
-                <span>Nigeria.</span>
+                <h1>London Office</h1>
+                <span>Park Royal Road,</span>
+                <span>London,</span>
+                <span>United Kingdom.</span>
                 <span>
                   Email:
-                  <a href="mailto:https://dovewellgroup.com/">
-                    info@dovewellgroup.com
+                  <a href="mailto:Rodavanmateo@gmail.com/">
+                    Rodavanmateo@gmail.com
                   </a>
                 </span>
                 <span>
-                  website:
-                  <a href="mailto:https://dovewellgroup.com/">
-                    info@dovewellgroup.com
-                  </a>
+                  Phone: <span>+44 (752) 064 3398</span>
                 </span>
               </div>
               <div className="state">
-                <h1>Port Harcourt Office</h1>
-                <span>Plot 21B Akwuzu Street,</span>
-                <span>Lekki Phase 1, Lagos,</span>
-                <span>Lagos State,</span>
-                <span>Nigeria.</span>
-                <span>
-                  Email:
-                  <a href="mailto:https://dovewellgroup.com/">
-                    info@dovewellgroup.com
-                  </a>
-                </span>
-                <span>
-                  website:
-                  <a href="mailto:https://dovewellgroup.com/">
-                    info@dovewellgroup.com
-                  </a>
-                </span>
-              </div>
-            </div>
-            <div className="contact">
-              <div className="state">
-                <h1>YARD LOCATION</h1>
-                <span>Plot 21B Akwuzu Street,</span>
-                <span>Lekki Phase 1, Lagos,</span>
-                <span>Lagos State,</span>
-                <span>Nigeria.</span>
-                <span>
-                  Email:
-                  <a href="mailto:https://dovewellgroup.com/">
-                    info@dovewellgroup.com
-                  </a>
-                </span>
-                <span>
-                  website:
-                  <a href="mailto:https://dovewellgroup.com/">
-                    info@dovewellgroup.com
-                  </a>
-                </span>
-              </div>
-              <div className="state">
-                <h1>CALL LINES</h1>
-                <div className="state">
-                  <span>+1 333 333 3334</span>
-                  <span>+1 333 333 3334</span>
-                  <span>+1 333 333 3334</span>
-                  <span>+1 333 333 3334</span>
-                </div>
+                <h1>Birmingham</h1>
+                <span>Middlemore Industrial Estate,</span>
+                <span>Birmingham,</span>
+                <span>United Kingdom.</span>
               </div>
             </div>
           </div>
           <div className="country">
-            <h1>Angola</h1>
+            <h1>South Africa </h1>
             <div className="state">
-              <h1>Lagos Office</h1>
-              <span>Plot 21B Akwuzu Street,</span>
-              <span>Lekki Phase 1, Lagos,</span>
-              <span>Lagos State,</span>
-              <span>Nigeria.</span>
+              <h1>South-western Office</h1>
+              <span> South-western Cape region, </span>
+              <span>South Africa.</span>
               <span>
                 Email:
-                <a href="mailto:https://dovewellgroup.com/">
-                  info@dovewellgroup.com
+                <a href="mailto:info@matropetro.southafrica.com/">
+                  info@matropetro.southafrica.com
                 </a>
               </span>
-              <span>
-                website:
-                <a href="mailto:https://dovewellgroup.com/">
-                  info@dovewellgroup.com
-                </a>
-              </span>
-            </div>
-            <div className="contact">
-              <div className="state">
-                <h1>CALL LINES</h1>
-                <div className="state">
-                  <span>+1 333 333 3334</span>
-                  <span>+1 333 333 3334</span>
-                </div>
-              </div>
             </div>
           </div>
           <div className="country">
-            <h1>Ghana</h1>
+            <h1>New Zealand</h1>
             <div className="state">
-              <h1>Lagos Office</h1>
-              <span>Plot 21B Akwuzu Street,</span>
-              <span>Lekki Phase 1, Lagos,</span>
-              <span>Lagos State,</span>
-              <span>Nigeria.</span>
+              <h1>South Island Office</h1>
+              <span>Queenstown Lakes District</span>
+              <span>South Island</span>
+              <span>New Zealand.</span>
               <span>
                 Email:
-                <a href="mailto:https://dovewellgroup.com/">
-                  info@dovewellgroup.com
+                <a href="mailto:info@matropetro.newzealand.com/">
+                  info@matropetro.newzealand.com
                 </a>
               </span>
-              <span>
-                website:
-                <a href="mailto:https://dovewellgroup.com/">
-                  info@dovewellgroup.com
-                </a>
-              </span>
-            </div>
-            <div className="contact">
-              <div className="state">
-                <h1>CALL LINES</h1>
-                <div className="state">
-                  <span>+1 333 333 3334</span>
-                  <span>+1 333 333 3334</span>
-                </div>
-              </div>
             </div>
           </div>
         </aside>

@@ -9,21 +9,19 @@ const Maintenance = () => {
       <h1>MARINE SUPPORT</h1>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-        deserunt, corrupti tenetur est eaque quas odio voluptate aperiam
-        asperiores alias quasi laborum doloribus, molestias iusto libero ut ex,
-        mollitia dolorum esse repellendus assumenda ad accusantium amet! Nemo
-        hic eaque ad iste, accusamus possimus iure itaque quod, atque
+        <strong>MatroPetroserve</strong> supplies crane parts and carry out
+        crane services. Crane parts and service are available for ship cranes,
+        offshore cranes and mobile cranes. We also provide hydraulic repairs for
+        crane pumps and motors as well as crane winch and crane gearbox repairs.
+        Offshore crane sales and marine crane sales also available.
       </p>
       <div>
         <h1>Ship Crane parts</h1>
         <p>
-          sint voluptatibus sit quas doloremque culpa voluptatem eum quidem in
-          impedit deserunt ratione at! Et repudiandae quis molestias illum
-          quibusdam tenetur quisquam tempora magnam suscipit unde at autem
-          temporibus adipisci aliquid enim vitae, excepturi non. Magnam ullam
-          eos necessitatibus suscipit quod quidem, perferendis quae facere
-          ducimus autem, explicabo eaque beatae animi veniam sequi!
+          <strong>MatroPetroserve </strong>
+          provides: Ship crane parts, Ship crane Engineers, Hydraulic repairs,
+          Gearbox repairs, Winch repairs, Crane sales and many other ship and
+          marine crane services for:
         </p>
 
         <div className="row">
@@ -40,23 +38,20 @@ const Maintenance = () => {
       </div>
 
       <p>
-        sint voluptatibus sit quas doloremque culpa voluptatem eum quidem in
-        impedit deserunt ratione at! Et repudiandae quis molestias illum
-        quibusdam tenetur quisquam tempora magnam suscipit unde at autem
-        temporibus adipisci aliquid enim vitae, excepturi non. Magnam ullam eos
-        necessitatibus suscipit quod quidem, perferendis quae facere ducimus
-        autem, explicabo eaque beatae animi veniam sequi!
+        Acta, Aker, Allied Marine, Asea, Bergen, Effer, Heila, Hochang, Huisman,
+        Hydramarin, Kawasaki, Krupp, Marlift, Norlift, North Pacific, Norwinch,
+        Palfinger, Towimor, TTS LMG, TTS Marine, TTS Norlift ship crane parts
+        and Engineers are also available.
       </p>
 
       <div>
         <h1>Offshore Crane parts</h1>
         <p>
-          sint voluptatibus sit quas doloremque culpa voluptatem eum quidem in
-          impedit deserunt ratione at! Et repudiandae quis molestias illum
-          quibusdam tenetur quisquam tempora magnam suscipit unde at autem
-          temporibus adipisci aliquid enim vitae, excepturi non. Magnam ullam
-          eos necessitatibus suscipit quod quidem, perferendis quae facere
-          ducimus autem, explicabo eaque beatae animi veniam sequi!
+          {" "}
+          <strong>MatroPetroserve</strong>
+          provides Offshore crane parts, Ship crane Engineers, Hydraulic
+          repairs, Gearbox repairs, Winch repairs, Crane sales and many other
+          offshore and pedestal crane services for:
         </p>
 
         <div className="row">
@@ -73,23 +68,18 @@ const Maintenance = () => {
       </div>
 
       <p>
-        sint voluptatibus sit quas doloremque culpa voluptatem eum quidem in
-        impedit deserunt ratione at! Et repudiandae quis molestias illum
-        quibusdam tenetur quisquam tempora magnam suscipit unde at autem
-        temporibus adipisci aliquid enim vitae, excepturi non. Magnam ullam eos
-        necessitatibus suscipit quod quidem, perferendis quae facere ducimus
-        autem, explicabo eaque beatae animi veniam sequi!
+        Acta, Aker, American Aero, American Hoist, Ateinsa, BMC, Dreco, Dreggen,
+        Effer, Hercules, Houston Systems, Le Tourneau, National, Nautilus, Nor
+        Mar, Norlift, NOV, OS, Patriot, Peregrini, Seahorse, Seaking, Seatrax,
+        Titan, Weatherford, Wolffkran and Unit Mariner offshore crane parts and
+        Engineers are also available.
       </p>
 
       <div>
         <h1>Mobile Crane parts</h1>
         <p>
-          sint voluptatibus sit quas doloremque culpa voluptatem eum quidem in
-          impedit deserunt ratione at! Et repudiandae quis molestias illum
-          quibusdam tenetur quisquam tempora magnam suscipit unde at autem
-          temporibus adipisci aliquid enim vitae, excepturi non. Magnam ullam
-          eos necessitatibus suscipit quod quidem, perferendis quae facere
-          ducimus autem, explicabo eaque beatae animi veniam sequi!
+          Mobile crane parts for many types of mobile cranes and crawler cranes.
+          Crane parts shipped worldwide. Crane types available include;
         </p>
 
         <div className="row">
@@ -104,15 +94,6 @@ const Maintenance = () => {
           ))}
         </div>
       </div>
-
-      <p>
-        sint voluptatibus sit quas doloremque culpa voluptatem eum quidem in
-        impedit deserunt ratione at! Et repudiandae quis molestias illum
-        quibusdam tenetur quisquam tempora magnam suscipit unde at autem
-        temporibus adipisci aliquid enim vitae, excepturi non. Magnam ullam eos
-        necessitatibus suscipit quod quidem, perferendis quae facere ducimus
-        autem, explicabo eaque beatae animi veniam sequi!
-      </p>
     </>
   );
 };
