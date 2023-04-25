@@ -4,34 +4,45 @@ import Logo from "../../images/small_images/main_logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
 import { useEffect } from "react";
+import { useRef } from "react";
+import { useCallback } from "react";
 
 const Nav = () => {
   const [mobile, setMobile] = useState(true);
+  const [width, setWidth] = useState(window.innerWidth);
   const [menu, setMenu] = useState(false);
-  const isWindow = typeof window !== "undefined";
+  const myRef = useRef();
+
+  const handleResize = useCallback(() => {
+    setWidth(myRef.current.offsetWidth);
+  }, [myRef]);
 
   useEffect(() => {
-    const handleResize = () => {
-      if (isWindow) {
-        if (window.innerWidth > 700) {
-          setMobile(false);
-          console.log(window.innerWidth);
-          console.log(mobile);
-        } else {
-          setMobile(true);
-        }
-      }
-    };
-
+    window.addEventListener("load", handleResize);
     window.addEventListener("resize", handleResize);
 
     return () => {
+      window.removeEventListener("load", handleResize);
       window.removeEventListener("resize", handleResize);
     };
-  }, [isWindow, mobile]);
+  }, [myRef, handleResize]);
+
+  useEffect(() => {
+    const handleMobile = () => {
+      if (width < 700) {
+        setMobile(true);
+      } else {
+        setMobile(false);
+      }
+    };
+
+    handleMobile();
+  }, [width]);
+
+  console.log(width);
 
   return (
-    <nav className="navbar_container">
+    <nav className="navbar_container" ref={myRef}>
       <Link to="/" className="logo_link">
         <img src={Logo} alt="" />
       </Link>

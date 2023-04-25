@@ -14,7 +14,7 @@ const Home = () => {
         <div className="stitch" />
         <div>
           <div className="description">
-            <h2>Welcome To Matro Petro Serve</h2>
+            <h2>Welcome To Matrod Petro Serve</h2>
             <p>
               Our primary focus is to employ our specialized, technical
               expertise and motivate our team of professionals in contributing
