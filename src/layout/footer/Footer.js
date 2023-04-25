@@ -15,12 +15,10 @@ const Footer = () => {
             <span>United Kingdom.</span>
             <span>
               Email:
-              <a href="mailto:Rodavanmateo@gmail.com/">
-                Rodavanmateo@gmail.com
-              </a>
+              <a href="mailto:Rodavanmateo@gmail.com/">*******@gmail.com</a>
             </span>
             <span>
-              Phone: <span>+44 (752) 064 3398</span>
+              Phone: <span>*** **** 3398</span>
             </span>
           </div>
           <div className="state">
