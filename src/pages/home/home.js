@@ -2,6 +2,7 @@ import Banner from "../../components/Banner/Banner";
 import "./home.css";
 import { Statement } from "../../Data";
 import { Link, useLocation } from "react-router-dom";
+import Partner from "../../components/Partners/Partner";
 
 const Home = () => {
   const location = useLocation();
@@ -40,6 +41,10 @@ const Home = () => {
             <p>{statement.description}</p>
           </div>
         ))}
+      </div>
+
+      <div>
+        <Partner />
       </div>
     </section>
   );

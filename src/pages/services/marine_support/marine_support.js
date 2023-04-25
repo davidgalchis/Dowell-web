@@ -8,8 +8,8 @@ const Marine_support = () => {
       <h1>MARINE SUPPORT</h1>
 
       <p>
-        MatroPetroserve has developed a range of technologies and methods using
-        automated and semi-automated tank cleaning heads, vacuum transfer
+        Matrod Petroserve has developed a range of technologies and methods
+        using automated and semi-automated tank cleaning heads, vacuum transfer
         systems and other pumping solutions to clean tanks and vessels either
         remotely or with minimum man entry.
       </p>

@@ -47,9 +47,20 @@ const Nav = () => {
               Home
             </Link>
 
-            <Link to="company/about-us" onClick={() => setMenu(!menu)}>
-              Company
-            </Link>
+            <div className="hoverLink">
+              <span>Company</span>
+              <div className="hoverMenu">
+                <Link to="company/about-us" onClick={() => setMenu(!menu)}>
+                  About us
+                </Link>
+                <Link
+                  to="company/project-reference"
+                  onClick={() => setMenu(!menu)}
+                >
+                  Project reference
+                </Link>
+              </div>
+            </div>
 
             <div className="hoverLink">
               <span>Services</span>
@@ -99,7 +110,14 @@ const Nav = () => {
         <div className="navbar_menu">
           <Link to="/">Home</Link>
 
-          <Link to="company/about-us">Company</Link>
+          <div className="dropdown">
+            <span className="dropbtn">Company</span>
+            <div className="dropdown-content">
+              <Link to="company/about-us">About us</Link>
+              <br />
+              <Link to="company/project-reference">Project reference</Link>
+            </div>
+          </div>
 
           <div className="dropdown">
             <span className="dropbtn">Services</span>

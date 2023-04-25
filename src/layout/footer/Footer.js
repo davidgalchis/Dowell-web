@@ -40,7 +40,7 @@ const Footer = () => {
           <span>
             Email:
             <a href="mailto:info@matropetro.southafrica.com/">
-              info@matropetro.southafrica.com
+              info@matrod.southafrica.com
             </a>
           </span>
         </div>
@@ -55,7 +55,7 @@ const Footer = () => {
           <span>
             Email:
             <a href="mailto:info@matropetro.newzealand.com/">
-              info@matropetro.newzealand.com
+              info@matrod.newzealand.com
             </a>
           </span>
         </div>

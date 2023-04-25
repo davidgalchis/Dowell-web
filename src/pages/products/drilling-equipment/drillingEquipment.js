@@ -21,8 +21,8 @@ const DrillingEquipment = () => {
         We would be proud to earn your business and become partners in the
         industry. Allow us the opportunity to serve you. You will experience
         first class service along with best in class products.
-        <strong>MatroPetroserve</strong> is your valve and automation connection
-        to the world.
+        <strong>Matrod Petroserve</strong> is your valve and automation
+        connection to the world.
       </p>
 
       <img src={Fittings} alt="" />
@@ -32,7 +32,7 @@ const DrillingEquipment = () => {
       </p>
 
       <p>
-        MatroPetroserve provides different sizes of flanges/fittings from 1/2″
+        Matrod Petroserve provides different sizes of flanges/fittings from 1/2″
         to 60″, ANSI classes 150lbs to 2500lbs API6D & API6A and API 2000 to API
         20000 in Carbon Steel, Stainless Steel, Duplex Steel, Super Duplex
         Steel, Alloy Steel, Incoloy-Monel, Titanium etc.

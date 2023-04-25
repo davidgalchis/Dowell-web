@@ -9,7 +9,7 @@ const Maintenance = () => {
       <h1>MARINE SUPPORT</h1>
 
       <p>
-        <strong>MatroPetroserve</strong> supplies crane parts and carry out
+        <strong>Matrod Petroserve</strong> supplies crane parts and carry out
         crane services. Crane parts and service are available for ship cranes,
         offshore cranes and mobile cranes. We also provide hydraulic repairs for
         crane pumps and motors as well as crane winch and crane gearbox repairs.
@@ -18,7 +18,7 @@ const Maintenance = () => {
       <div>
         <h1>Ship Crane parts</h1>
         <p>
-          <strong>MatroPetroserve </strong>
+          <strong>Matrod Petroserve </strong>
           provides: Ship crane parts, Ship crane Engineers, Hydraulic repairs,
           Gearbox repairs, Winch repairs, Crane sales and many other ship and
           marine crane services for:
@@ -48,7 +48,7 @@ const Maintenance = () => {
         <h1>Offshore Crane parts</h1>
         <p>
           {" "}
-          <strong>MatroPetroserve</strong>
+          <strong>Matrod Petroserve</strong>
           provides Offshore crane parts, Ship crane Engineers, Hydraulic
           repairs, Gearbox repairs, Winch repairs, Crane sales and many other
           offshore and pedestal crane services for:

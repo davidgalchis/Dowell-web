@@ -8,11 +8,11 @@ const RotatingEquipment = () => {
     <>
       <img src={Drilling} alt="drilling equipment" />
       <p>
-        MatroPetroserve is in the business of procuring, marketing and servicing
-        pumps of quality brand names. The company’s product line includes:
-        Single stage liquid ring vacuum pumps, Two-stage liquidizing vacuum
-        pumps, Liquid ring compressors, Rotary vane vacuum pumps, single stage
-        centrifugal pumps, multi-stage centrifugal pumps, multistage
+        Matrod Petroserve is in the business of procuring, marketing and
+        servicing pumps of quality brand names. The company’s product line
+        includes: Single stage liquid ring vacuum pumps, Two-stage liquidizing
+        vacuum pumps, Liquid ring compressors, Rotary vane vacuum pumps, single
+        stage centrifugal pumps, multi-stage centrifugal pumps, multistage
         self-priming pumps, full engineered vacuum systems and compressors.
       </p>
       <br />

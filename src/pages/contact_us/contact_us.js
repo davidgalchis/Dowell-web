@@ -5,7 +5,6 @@ const Contact_us = () => {
   const location = useLocation();
   const myLocation = location.pathname.split("/");
 
-  console.log(myLocation[1]);
   return (
     <section className="contact_us_wrapper">
       <div className="tab">
@@ -14,7 +13,7 @@ const Contact_us = () => {
       <section className="row">
         <section className="container">
           <p>
-            MatroPetroserve Oilfield Services is always open for communication
+            Matrod Petroserve Oilfield Services is always open for communication
             on whatever questions you may have. So in case you do have questions
             (as we assume) just go ahead and complete the form below to let us
             know.
@@ -105,7 +104,7 @@ const Contact_us = () => {
               <span>
                 Email:
                 <a href="mailto:info@matropetro.southafrica.com/">
-                  info@matropetro.southafrica.com
+                  info@matrod.southafrica.com
                 </a>
               </span>
             </div>
@@ -120,7 +119,7 @@ const Contact_us = () => {
               <span>
                 Email:
                 <a href="mailto:info@matropetro.newzealand.com/">
-                  info@matropetro.newzealand.com
+                  info@matrod.newzealand.com
                 </a>
               </span>
             </div>

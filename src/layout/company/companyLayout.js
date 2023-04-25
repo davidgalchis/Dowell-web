@@ -33,7 +33,7 @@ const CompanyLayout = () => {
           </div>
           <section className="search">
             <div>
-              <input type="text" placeholder="Search MatroPetroserve" />
+              <input type="text" placeholder="Search Matrod Petroserve" />
             </div>
           </section>
           <section className="news_section">

@@ -15,6 +15,7 @@ import Careers from "./pages/careers/careers";
 import Maintenance from "./pages/services/maintenance/maintenance";
 import RotatingEquipment from "./pages/products/rotating-equipment/rotatingEquipment";
 import DrillingEquipment from "./pages/products/drilling-equipment/drillingEquipment";
+import Projects from "./pages/company/projects/Projects";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="company" element={<CompanyLayout />}>
         <Route path="about-us" element={<Aboutus />} />
+        <Route path="project-reference" element={<Projects />} />
       </Route>
       <Route path="services" element={<CompanyLayout />}>
         <Route
