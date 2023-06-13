@@ -1,0 +1,62 @@
+{
+    "components": {
+        "ui": {
+            "type": "@reactapp.spa",
+            "bundler": "webpack",
+            "node_version": 14,
+            "config":{
+                "path":"src/config/config.js",
+                "data": {
+                    "backend_api_endpoint": "@my_api:props.endpoint_with_stage"
+                }
+            }
+        },
+        "my_table": {
+            "type": "@dynamodb.table"
+        },
+        "my_api": {
+            "type": "@apigateway.api",
+            "resources": {
+                "/{proxy+}": {
+                    "OPTIONS": "@my_lambda:props.arn",
+                    "POST": "@my_lambda:props.arn",
+                    "GET": "@my_lambda:props.arn"
+                }
+            },
+            "cors_enabled": true
+        },
+        "my_lambda": {
+            "type": "@lambda.function",
+            "description": "Lambda that iterates DynamoDB Table counter",
+            "timeout": 10,
+            "policies": ["@my_lambda_policy"],
+            "environment_variables": {
+                "table_name": "@my_table:props.name"
+            }
+        },
+        "my_lambda_policy": {
+            "type": "@iam.policy",
+            "description": "Table Write Policy",
+            "document": {
+                "Version": "2012-10-17",
+                "Statement": [{
+                    "Sid": "Dynamo",
+                    "Effect": "Allow",
+                    "Action": [
+                        "dynamodb:GetItem",
+                        "dynamodb:PutItem",
+                        "dynamodb:UpdateItem"
+                    ],
+                    "Resource": "@my_table:props.arn"
+                }]
+            }
+        }
+    },
+    "repos": {
+        "reactapp": "https://github.com/cloudkommand/reactapp",
+        "apigateway": "https://github.com/cloudkommand/apigateway",
+        "dynamodb": "https://github.com/cloudkommand/dynamodb",
+        "lambda": "https://github.com/cloudkommand/lambda",
+        "iam": "https://github.com/cloudkommand/iam"
+    }
+}
